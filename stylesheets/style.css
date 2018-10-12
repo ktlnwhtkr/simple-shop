@@ -1,0 +1,310 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  background-image: url("../images/full-bloom.png");
+}
+
+.navbar-brand {
+  color: #41337A;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 35px !important;
+  padding-right: 30px;
+}
+
+.navbar-brand:hover {
+  color: #331E36;
+}
+
+.navbar-toggler .fa-bars {
+  color: #331E36;
+}
+
+.top-nav {
+  background-color: none;
+}
+
+.top-nav .nav-item .nav-link {
+  color: #41337A;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.top-nav .nav-link:hover {
+  color: #6EA4BF;
+}
+
+.top-nav .dropdown-menu {
+  background-color: #fff;
+  color: #fff;
+}
+
+.btn-search {
+  color: #331E36;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  background: #C2EFEB;
+}
+
+.fa-shopping-cart {
+  margin-left: 30px;
+  color: #41337A;
+  font-size: 25px;
+}
+
+.carousel {
+  left: 0px;
+  height: 55vh;
+}
+
+.carousel-inner {
+  height: 55vh;
+}
+
+.carousel-item {
+  height: 55vh;
+}
+
+.carousel-caption {
+  padding: 20px;
+  top: 30%;
+  bottom: auto;
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  padding-bottom: 25px;
+  line-height: 65px;
+  font-family: 'Dancing Script', cursive;
+  color: #41337A;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+  color: #331E36;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #ECFEE8;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #ECFEE8 0%, #C2EFEB 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ECFEE8 0%, #C2EFEB 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ECFEE8 0%, #C2EFEB 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  opacity: .8;
+}
+
+.carousel-caption .btn {
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #ECFEE8;
+  font-size: 17px;
+  font-weight: bold;
+  background: #41337A;
+}
+
+.carousel-caption .btn:hover {
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #41337A;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #331E36;
+}
+
+#spotlight {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #C2EFEB;
+  outline: 1px solid #6EA4BF;
+  outline-offset: -10px;
+  color: #ECFEE8;
+  position: relative;
+  z-index: 1;
+}
+#spotlight:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../images/fragrance-deal.jpg") right center no-repeat;
+  background-color: #C2EFEB;
+  opacity: .7;
+}
+
+#spotlight a {
+  color: #41337A;
+}
+
+#spotlight p {
+  color: #331E36;
+  font-size: 20px;
+  text-align: center;
+}
+
+#spotlight .btn {
+  color: #ECFEE8;
+  background: #331E36;
+  font-weight: bold;
+}
+
+#spotlight .btn:hover {
+  color: #41337A;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #331E36;
+}
+
+#spotlight .form-inline {
+  z-index: 2;
+}
+
+#spotlight a:hover {
+  text-decoration: none;
+}
+
+#wrapper .text {
+  position: relative;
+  bottom: 210px;
+  left: 300px;
+  visibility: hidden;
+}
+
+#wrapper:hover .text {
+  visibility: visible;
+}
+
+.fa-heart {
+  color: #6EA4BF;
+}
+
+.fa-heart:hover {
+  color: #41337A;
+}
+
+#featured-home {
+  background: none;
+}
+
+#featured-home .new {
+  top: 170px;
+  left: 30px;
+  position: absolute;
+  display: inline;
+  padding: 5px;
+  background: #6EA4BF;
+  color: #ECFEE8;
+}
+
+#featured-home h3 {
+  margin-top: -25px;
+}
+
+#featured-home h3 a {
+  color: #41337A;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+#featured-home h3 a:hover {
+  color: #41337A;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.sale-price {
+  color: #6EA4BF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#featured-home .fa-shopping-cart {
+  color: #6EA4BF;
+  font-size: 30px;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 45px !important;
+  padding: 20px;
+  color: #41337A !important;
+}
+
+h2.line {
+  display: table;
+  white-space: nowrap;
+}
+h2.line:before, h2.line:after {
+  border-top: 4px double #41337A;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 45%;
+}
+h2.line:before {
+  right: 1.5%;
+}
+h2.line:after {
+  left: 1.5%;
+}
+
+.footer {
+  margin-top: 30px;
+  border-top: 4px double #6EA4BF;
+  padding: 50px;
+  color: #41337A;
+  background-color: #C2EFEB;
+}
+
+.footer h3 {
+  color: #41337A !important;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+.footer h4 {
+  color: #41337A !important;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer a {
+  color: #41337A;
+}
+
+.footer a:hover {
+  color: #331E36;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer h4 {
+  color: #331E36;
+}
+
+/*# sourceMappingURL=style.css.map */

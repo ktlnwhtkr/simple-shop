@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Simple Boutique</title>
+<meta name="description" content="">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+        <nav class="navbar top-nav navbar-expand-lg">
+                <a class="navbar-brand" href="#"><i class="fas fa-gem"></i> Boutique</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Oils</a>
+                        <a class="dropdown-item" href="#">Scents</a>
+                        <a class="dropdown-item" href="#">Makeup</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </form>
+                </div>
+        </nav>
+
+        <!-- Slider Start -->
+              <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="overlay"></div>
+                    <img class="d-block w-100 h-100" src="images/brown-smoothie.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Donec finibus scelerisque</h5>
+                      <p>Suspendisse ac orci placerat, suscipit purus placerat, feugiat purus. Suspendisse eget consectetur metus. Duis dignissim nisl ac magna faucibus aliquam.</p>
+                      <a href="#" class="btn">SHOP NOW</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img class="d-block w-100 h-100" src="images/glasses.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Donec finibus scelerisque</h5>
+                      <p>Suspendisse ac orci placerat, suscipit purus placerat, feugiat purus. Suspendisse eget consectetur metus. Duis dignissim nisl ac magna faucibus aliquam.</p>
+                      <a href="#" class="btn">SHOP NOW</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img class="d-block w-100 h-100" src="images/glasses-terrarium.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Donec finibus scelerisque</h5>
+                      <p>Suspendisse ac orci placerat, suscipit purus placerat, feugiat purus. Suspendisse eget consectetur metus. Duis dignissim nisl ac magna faucibus aliquam.</p>
+                      <a href="#" class="btn">SHOP NOW</a>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+
+                    <span class="sr-only">Next</span>
+                  </a>
+
+            </div>
+        <!-- Slider End -->
+
+
+
+      <h2 class="line text-center">New Products</h2>
+
+
+
+      <div class="container px-0">
+        <div class="row" id="featured-home">
+
+          <div class="col-md-4">
+            <div class="new">New</div>
+            <div id="wrapper">
+              <img class="img-fluid hover" src="images/body-oil.jpg"/>
+              <p class="text"><a href="#"><i class="fas fa-heart"></i></a></p>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <h3><a href="#">CocoOil</a></h3>
+                <p class="sale-price">$12.99</p>
+              </div>
+              <div class="col-md-4">
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="new">New</div>
+            <div id="wrapper">
+              <img class="img-fluid" src="images/flowers.jpg"/>
+              <p class="text"><a href="#"><i class="fas fa-heart"></i></a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                  <h3><a href="#">Scents</a></h3>
+                  <p class="sale-price">$12.99</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="new">New</div>
+            <div id="wrapper">
+              <img class="img-fluid" src="images/makeup.jpg"/>
+              <p class="text"><a href="#"><i class="fas fa-heart"></i></a></p>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                  <h3><a href="#">Blush</a></h3>
+                  <p class="sale-price">$12.99</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row form-group" id="spotlight">
+          <div class="col d-flex align-items-center">
+            <p>Subscribe to our newsletter to receive updates on when our best deals are happening!</p>
+          </div>
+          <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+              <input type="text" class="form-control form-group" placeholder="Email">
+            </div>
+            <button type="submit" class="btn mb-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+
+
+      <h2 class="line text-center">About Us</h2>
+
+      <div class="row">
+        <div class="col-md-7">
+          <p>Cras fringilla mattis nisi ut rhoncus. Suspendisse lobortis erat nibh, vestibulum tincidunt enim tempus at. Aenean ut dolor scelerisque, euismod nisi vitae, dictum eros. Nulla consequat sagittis eleifend.</p>
+          <p>Vivamus ut nunc arcu. Sed venenatis mauris in nisi condimentum egestas. Sed a pharetra nunc. Nulla sodales tempus ante, et finibus urna pulvinar et. Sed condimentum congue odio at placerat. Proin massa eros, aliquam et tincidunt ut, congue sit amet lectus. Vivamus non hendrerit tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula lectus ac semper tincidunt. Etiam mollis sed risus vel gravida. Nullam viverra malesuada ipsum id tincidunt.</p>
+          <p>Aliquam quis libero massa. Suspendisse sollicitudin magna elit, sed tempus odio placerat et. Sed id porta tortor. Mauris vestibulum ultricies purus, ac fermentum sapien egestas sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <p>Mauris porta, erat auctor porttitor tristique, velit dolor fermentum erat, sit amet varius nulla nibh et ipsum. Donec lobortis lectus felis, sit amet accumsan urna facilisis quis. Duis ullamcorper blandit aliquet. Sed faucibus id felis in tempor. Nulla vitae tempus nunc, a imperdiet risus. Sed sapien purus, pharetra ut mauris non, commodo porttitor nunc. In sit amet turpis diam.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid" src="images/about.jpg"/>
+        </div>
+      </div>
+
+
+      <section class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Boutique</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Street Address<br />
+                City, State 12345</p>
+                <p><i class="fas fa-phone"></i> 123-456-7890</p>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href="#" target="_blank">Home</a></li>
+                  <li><a href="#" target="_blank">About</a></li>
+                  <li><a href="#" target="_blank">Shop</a></li>
+                  <li><a href="#" target="_blank">Careers</a></li>
+                  <li><a href="#" target="_blank">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Find Us</h4>
+                <ul>
+                  <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                  <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                  <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </section>
+
+
+
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
